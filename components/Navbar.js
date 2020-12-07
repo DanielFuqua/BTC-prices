@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
       <div className="container">
-        <a className="navbar-brand" href="#">
-          BitzPrice
+        <a className="navbar-brand" href="/">
+          BTC Price Checker
         </a>
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ml-auto">

@@ -25,11 +25,14 @@ class Prices extends React.Component {
         </li>
       );
     } else if (this.state.currency === "EUR") {
-      <li className="list-group-item">
-        Bitcoin Rate for {this.props.bpi.EUR.description} :{" "}
-        <span className="badge badge-primary">{this.props.bpi.EUR.code}</span>
-        <strong>{this.props.bpi.EUR.rate}</strong>
-      </li>;
+      console.log("EUR");
+      list = (
+        <li className="list-group-item">
+          Bitcoin Rate for {this.props.bpi.EUR.description} :{" "}
+          <span className="badge badge-primary">{this.props.bpi.EUR.code}</span>
+          <strong>{this.props.bpi.EUR.rate}</strong>
+        </li>
+      );
     }
 
     return (
